@@ -1,3 +1,29 @@
 body {
   margin: 0;
 }
+
+.container {
+  display: grid;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+header > div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0 24px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content:first-child {
+  justify-content: start;
+  gap: 20px;
+}
