@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  background-color: #fff;
   display: grid;
   grid-template-rows: 1fr;
   grid-column: 2;
@@ -29,6 +30,14 @@ header > div {
 .header-content:first-child {
   justify-content: start;
   gap: 20px;
+}
+
+.header-content > input {
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  height: 24px;
+  width: 75%;
 }
 
 .sidebar {
