@@ -50,9 +50,14 @@ header > div {
   border: none;
   border-radius: 40px;
   color: #fff;
+  cursor: pointer;
   font-size: 0.9rem;
   font-weight: 600;
   padding: 10px 24px;
+}
+
+.buttons button:hover {
+  background-color: #31a8e9;
 }
 
 .sidebar {
