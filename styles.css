@@ -5,7 +5,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr;
 }
 
@@ -34,11 +34,25 @@ header > div {
 }
 
 .header-content > input {
-  background-color: #ddd;
+  background-color: #e2e8f0;
   border: none;
   border-radius: 10px;
   height: 24px;
   width: 75%;
+}
+
+.buttons {
+  gap: 10px;
+}
+
+.buttons button {
+  background-color: #1992d4;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 24px;
 }
 
 .sidebar {
