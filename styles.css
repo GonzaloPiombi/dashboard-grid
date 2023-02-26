@@ -14,7 +14,7 @@ p {
 .container {
   background-color: #e2e8f0;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: auto 1fr;
   height: 100vh;
 }
@@ -98,7 +98,6 @@ a:hover {
 
 main {
   display: grid;
-  align-items: start;
   grid-column: 2;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
@@ -115,7 +114,7 @@ main {
 .projects {
   grid-column: 1 / 2;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px 0 0 20px;
 }
@@ -126,12 +125,12 @@ main {
 }
 
 .project-card h5 {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .project-card p {
   color: #585858;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -148,8 +147,12 @@ main {
 
 .announcement-card p {
   color: #585858;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-bottom: 12px;
+}
+
+.announcement-card h5 {
+  font-size: 1.1rem;
 }
 
 .trending-card {
@@ -157,7 +160,7 @@ main {
 }
 
 .trending p {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .app-name {
