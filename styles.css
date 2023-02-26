@@ -3,6 +3,14 @@ body {
   margin: 0;
 }
 
+h5 {
+  margin: 6px 0;
+}
+
+p {
+  margin: 0;
+}
+
 .container {
   background-color: #e2e8f0;
   display: grid;
@@ -100,6 +108,10 @@ main {
   font-size: 0.9rem;
 }
 
+.wrapper {
+  margin: 24px 0;
+}
+
 .announcements {
   background-color: #fff;
   box-shadow: 2px 1px 5px #b1b1b1;
@@ -110,6 +122,17 @@ main {
 }
 
 .announcement-card {
+  margin: 12px 24px;
+}
+
+.announcement-card:not(:last-child) {
+  border-bottom: solid 1px #b1b1b1;
+}
+
+.announcement-card p {
+  color: #585858;
+  font-size: 0.7rem;
+  margin-bottom: 12px;
 }
 
 .trending {
