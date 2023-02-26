@@ -78,8 +78,14 @@ main {
   display: grid;
   grid-column: 2;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 30px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 2px 1px 5px #b1b1b1;
+  border-radius: 5px;
 }
 
 .projects {
@@ -92,9 +98,6 @@ main {
 }
 
 .project-card {
-  background-color: #fff;
-  box-shadow: 2px 1px 5px #b1b1b1;
-  border-radius: 5px;
   border-left: solid 10px #f0b429;
   padding: 6px 12px;
 }
@@ -113,9 +116,6 @@ main {
 }
 
 .announcements {
-  background-color: #fff;
-  box-shadow: 2px 1px 5px #b1b1b1;
-  border-radius: 5px;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   margin: 20px 20px 0 0;
@@ -138,4 +138,17 @@ main {
 .trending {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  margin-right: 20px;
+}
+
+.trending-card {
+  margin: 12px 24px;
+}
+
+.trending p {
+  font-size: 0.9rem;
+}
+
+.app-name {
+  color: #585858;
 }
