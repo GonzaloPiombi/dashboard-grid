@@ -129,6 +129,8 @@ main {
 .project-card {
   border-left: solid 10px #f0b429;
   padding: 28px 20px;
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 
 .project-card h5 {
@@ -178,4 +180,16 @@ main {
   display: grid;
   gap: 40px;
   padding: 20px 20px 0 0;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  cursor: pointer;
+  color: #282828;
+}
+
+.icons > *:hover {
+  color: #585858;
 }
