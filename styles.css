@@ -35,8 +35,9 @@ header > div {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
+  gap: 10%;
 }
 
 .header-content:first-child {
@@ -56,10 +57,6 @@ header > div {
 
 .header-content > input:focus {
   outline: solid 1px grey;
-}
-
-.buttons {
-  gap: 10px;
 }
 
 .buttons button {
