@@ -139,7 +139,8 @@ main {
   font-size: 1rem;
 }
 
-.announcements {
+.announcements,
+.trending {
   display: grid;
   height: fit-content;
 }
@@ -164,6 +165,10 @@ main {
 
 .announcement-card h5 {
   font-size: 1.1rem;
+}
+
+.trending {
+  align-self: end;
 }
 
 .trending-card {
