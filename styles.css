@@ -139,8 +139,13 @@ main {
   font-size: 1rem;
 }
 
+.announcements {
+  display: grid;
+  height: fit-content;
+}
+
 .wrapper {
-  margin: 24px 0;
+  margin: 24px 12px;
 }
 
 .announcement-card {
