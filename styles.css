@@ -45,6 +45,15 @@ header > div {
   gap: 20px;
 }
 
+.header-content h3 {
+  margin: 4px 0;
+}
+
+.greeting {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 .header-content > input {
   background-color: #e2e8f0;
   border: none;
@@ -192,6 +201,10 @@ main {
 
 .trending-card {
   margin: 12px 24px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
 }
 
 .trending p {
@@ -218,4 +231,8 @@ main {
 
 .icons > *:hover {
   color: #585858;
+}
+
+.pp {
+  color: #9b9bed;
 }
