@@ -4,4 +4,4 @@
 
 The goal of the project was to recreate a layout resembling what an admin dashboard looks like using primarily CSS Grid. 
 
-It does not mean to be fully responsive.
+[Live Demo](https://gonzalopiombi.github.io/dashboard-grid/) (It does not mean to be fully responsive).
